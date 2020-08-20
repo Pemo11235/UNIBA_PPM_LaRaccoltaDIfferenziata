@@ -1,0 +1,73 @@
+.container-fluid{
+  padding-top: 1%;
+}
+
+.picture{
+  display:block;
+  margin:0px auto;
+  text-align:center;
+  padding-top: 2%;
+  width: 60%;
+}
+
+.grigliaHome{
+  display: inline-flex;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.bloccoSezione{
+  display: inline-block;
+  width: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: center;
+}
+.logoSezione{
+  width: 85%;
+  border-radius: 50%;
+}
+.logoSezione:hover{background:#3d3d3d; filter: brightness(120%);}
+
+.titoloSezione{
+width: 100%;
+font-size: 190%;
+font-family: Garamond;
+color: white;
+text-align: center;
+margin-top: 7%;
+}
+
+/*---GESTIONE RISOLUZIONI INFERIORI---*/
+@media only screen and (max-width: 1300px) {
+.titoloSezione{
+width: 100%;
+font-size: 140%;
+margin-top: 7%;
+}
+}
+
+@media only screen and (max-width: 950px) {
+.titoloSezione{
+font-size: 85%;
+}
+}
+
+@media only screen and (max-width: 550px) {
+.titoloSezione{
+font-size: 75%;
+}
+}
+
+@media only screen and (max-width: 375px) {
+.titoloSezione{
+font-size: 65%;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.titoloSezione{
+font-size: 55%;
+}
+}

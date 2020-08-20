@@ -1,0 +1,243 @@
+/* LAYOUT PRE-HOME */
+
+/* NAVBARs PRE-HOME */
+li.DaSapereHome{
+  width: 25%;
+  text-align: center;
+}
+
+li.aTarantoHome{
+  width: 50%;
+  text-align: center;
+}
+
+li.DoveLoButtoHome{
+  width: 25%;
+  text-align: center;
+}
+
+li.ExtraHome{
+  width: 50%;
+}
+
+li.Curiosità{
+  width: 33%;
+  text-align: center;
+}
+
+.spazio{
+  padding-top: 2%;
+}
+
+/* TITOLO SEZIONE*/
+.titolo {
+  margin-bottom: 1%;
+  font-family: garamond;
+  font-size: 90%;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  right: auto;
+  left: auto;
+}
+
+.descrizioneDaSapere{
+  border-radius: 15px 15px 15px 15px;
+  border: 1.5px solid greenyellow;
+  background-color: #111;
+  margin-top: 2%;
+  margin-left: 0%;
+  margin-bottom: 3%;
+  width: 100%;
+  font-family: Segoe UI;
+  color: white;
+  font-size: 120%;
+  line-height: 1.4em;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.descrizioneImpatto {
+  border-radius: 15px 15px 15px 15px;
+  border: 1.5px solid greenyellow;
+  background-color: #111;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  width: 90%;
+  font-family: Segoe UI;
+  color: white;
+  font-size: 120%;
+  line-height: 1.4em;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.descrizioneRifiuti {
+  border-radius: 15px 15px 15px 15px;
+  border: 1.5px solid greenyellow;
+  background-color: #111;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  width: 90%;
+  font-family: Segoe UI;
+  color: white;
+  font-size: 120%;
+  line-height: 1.4em;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.descrizioneRaccolta {
+  border-radius: 15px 15px 15px 15px;
+  border: 1.5px solid greenyellow;
+  background-color: #111;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  width: 90%;
+  font-family: Segoe UI;
+  color: white;
+  font-size: 120%;
+  line-height: 1.4em;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.descrizioneIntrattenimento {
+  border-radius: 15px 15px 15px 15px;
+  border: 1.5px solid greenyellow;
+  background-color: #111;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  width: 80%;
+  font-family: Segoe UI;
+  color: white;
+  font-size: 120%;
+  line-height: 1.4em;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+
+/*DESCRIZIONE SEZIONE*/
+
+
+
+/*ICONE PRE-HOME*/
+.griglia{
+  display: inline-block;
+}
+.titoloIcona{
+  text-align: center;
+  color: white;
+  font-family: Garamond;
+  font-size: 160%;
+}
+.iconeImpatto{
+  width: 47%;
+}
+.iconeRifiuti{
+  width: 76%;
+}
+
+.iconeRaccolta{
+  width:45%;
+}
+
+.iconeTaranto{
+  width: 23%;
+}
+.iconeIntrattenimento{
+  width: 33%;
+}
+.iconeCuriosità{
+  width: 55%;
+}
+
+.iconeImpatto:hover{filter: brightness(120%);}
+.iconeRifiuti:hover{filter: brightness(120%);}
+.iconeRaccolta:hover{filter: brightness(120%);}
+.iconeTaranto:hover{filter: brightness(120%);}
+.iconeIntrattenimento:hover{filter: brightness(120%);}
+.iconeCuriosità:hover{filter:brightness(120%);}
+
+
+/*---GESTIONE RISOLUZIONI INFERIORI---*/
+@media only screen and (max-width: 1300px) {
+li.DaSapereHome{
+  width: 100%;
+}
+.descrizioneRifiuti{
+  font-size: 16px;
+}
+.titoloIcona{
+  text-align: center;
+  color: white;
+  font-family: Garamond;
+  font-size: 100%;
+}
+.descrizioneDaSapere{
+  font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 950px) {
+.descrizioneDaSapere{
+  font-size: 12px;
+}
+.iconeTaranto{
+  width: 35%;
+}
+}
+
+@media only screen and (max-width: 550px) {
+li.DaSapereHome{width: 100%;}
+
+.descrizioneImpatto{
+  font-size: 13px;
+  margin-left: 0%;
+  width: 100%;
+}
+.descrizioneRifiuti{
+  font-size: 13px;
+}
+.titoloIcona{
+  font-size: 12px;
+}
+.iconeTaranto{
+  width: 50%;
+}
+}
+
+@media only screen and (max-width: 375px) {
+.titoloSezioneRifiuti{
+  padding-left: 23%;
+}
+.descrizioneRifiuti{
+  font-size: 12px;
+}
+.descrizioneImpatto{
+  font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.titoloSezioneRifiuti{
+  padding-left: 9%;
+}
+.descrizioneRifiuti{
+  font-size: 12px;
+}
+.descrizioneImpatto{
+  font-size: 8px;
+}
+}

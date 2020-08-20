@@ -1,0 +1,56 @@
+ul.Impatto{
+  width: 100%;
+}
+
+li.Impatto{
+  width: 25%;
+  text-align: center;
+}
+
+/*---LAVAGNA---*/
+.descrizione {
+  border-radius: 15px 15px 15px 15px;
+  border: 1.5px solid greenyellow;
+  background-color: #111;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 2%;
+  width: 60%;
+  font-family: segoe UI;
+  color: white;
+  font-size: 115%;
+  line-height: 1.4em;
+  padding: 1.5%;
+  float: left;
+  text-align: center; 
+}
+
+.titolo {
+  margin-bottom: 1%;
+  font-family: garamond;
+  font-size: 100%;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  right: auto;
+  left: auto;
+}
+
+.prevpage{
+  padding: 1.5%;
+}
+
+.nextpage{
+  padding: 1.5%;
+}
+
+.testo {
+  text-align: center;
+  color: white;
+}
+
+.panel.panel-default{
+  margin-right: 3%;
+  margin-left: 3%;
+}

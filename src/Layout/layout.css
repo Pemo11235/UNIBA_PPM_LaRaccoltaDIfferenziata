@@ -1,0 +1,602 @@
+/*---HEADER---*/
+header {
+  border-radius: 15px 15px 0px 0px;
+  border: 2px solid black;
+  background-color: greenyellow;
+  width: 100%;
+  padding: 0.5%;
+}
+
+body {
+  background-image: url(../../Media/Immagini/Layout/Sfondo.jpg);
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+
+.logo{
+	width: 6%;}
+
+.banner{
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right: 20%;
+	width: 45%;
+}
+
+.titleOverlay{
+  margin-left: 0%;
+  border: 1.5px solid greenyellow;
+  background-color: #111;
+  border-radius: 30px 30px 0px 0px;
+  font-family: garamond;
+  font-size: 200%;
+}
+.overlay{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.infoBottoneGriglia{
+display: inline-flex;
+width: 100%;
+}
+.imgButton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titoloButton{
+  width: 100%;
+}
+.descriptionButton{
+  font-family: Segoe UI;
+  width: 15%;
+  display: inline-block;
+}
+
+.second{
+  text-align: center;
+  width: 50%;
+  display: inline-flex;
+}
+.descriptionButtonSecond{
+  font-family: Segoe UI;
+  width: 35%;
+  display: inline-block;
+}
+.help{
+  padding-top:  1%;
+  padding-bottom:  1%;
+}
+.button{
+	margin-left: 0.5%;
+	width: 4.5%;
+	border-radius: 50%;
+  cursor: pointer;
+}
+.button:hover{background:greenyellow; filter: brightness(120%);}
+
+.closebutton{
+	margin-left: 0.5%;
+	width: 4.5%;
+	border-radius: 50%;
+  cursor: pointer;
+}
+.closebutton:hover{background:greenyellow; filter: brightness(120%);}
+
+
+/*---BRICIOLE DI PANE---*/
+.briciole{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	background-color: #111;
+	display: inline-flex;
+	color: white;
+}
+.panel-body{
+   margin-top: 2%;
+   border: 1.5px solid greenyellow;
+   background-color: #111;
+   text-align: center; 
+   border-radius: 10px;  
+   color: white;
+   margin-bottom: 1%;
+}
+
+ul.breadcrumb {  
+  border-radius: 5%;
+  margin-left: 1%;
+  margin: 0.3%;
+  padding: 1px;
+  list-style: none;
+  background-color: #111;
+  background-repeat: repeat;
+  color: white;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: greenyellow;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: greenyellow;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {  
+  color: lime;
+  text-decoration: underline;
+}
+
+/*---NAVBAR---*/
+.navbar.navbar-sezione{
+    font-family: Segoe UI;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 100%;
+}
+
+.navbar-dark.navbar-dark-sezione .navbar-nav.navbar-nav-sezione .nav-link.nav-link-sezione{
+  color: white;
+}
+
+.navbar-dark.navbar-dark-sezione .navbar-nav.navbar-nav-sezione .nav-link.nav-link-sezione:focus, .navbar-dark.navbar-dark-sezione .navbar-nav.navbar-nav-sezione .nav-link.nav-link-sezione:hover{
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.nav-item.nav-item-sezione{
+  border-bottom: 3px solid;
+  border-color: greenyellow;
+  background-image: url(../../Media/Immagini/Layout/bg.png);
+  background-repeat: repeat;
+}
+
+.nav-item.nav-item-sezione.active{
+  font-weight: bold;
+  background: #111;
+  color: black;
+}
+
+ul.menu{
+	width: 100%;
+  display: flex;
+}
+
+
+/*---FOOTER---*/
+footer {
+  font-family: times new romans;
+  font-size: 90%;
+  position: fixed;
+  padding: 5px;
+  bottom: 0;
+  left: 0;
+  width:  100%;
+  color: white;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+  border: 1px solid black;
+  background-image: url(../../Media/Immagini/Layout/bg.png);
+}
+footer:hover {
+  filter: brightness(120%);
+}
+
+.team{
+  color: greenyellow;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.team:hover{
+  color: lime;
+}
+.team:visited{
+  color: green;
+}
+.credits{
+  padding-top: 8%;
+  color: white;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 250%;
+  display: inline-flex;
+}
+.nameCredits{
+  padding-top: 4%;
+  font-family: garamond;
+  font-size: 200%;
+  line-height: 90%;
+  background-color: #222;
+  border-radius: 0px 0px 10px 10px;
+  padding-bottom: 1%;
+}
+.descriptionCredits{
+  font-family: Segoe UI;
+  width: 17%;
+  display: inline-block;
+  font-size: 80%;
+  background-color: #000;
+  border: 1.5px solid greenyellow;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+
+.returnHome{
+  position: fixed;
+  bottom: 6%;
+  left: 48%;
+  width: 5%;  
+  border-radius: 50%;
+}
+.returnHome:hover{background:greenyellow; filter: brightness(120%);}
+
+.backSection{
+  position: fixed;
+  bottom: 6%;
+  left: 1%;
+  width: 5%;  
+  border-radius: 50%;
+}
+.backSection:hover{background:greenyellow; filter: brightness(120%);}
+
+.backSectionUnclickable{
+  position: fixed;
+  bottom: 6%;
+  left: 1%;
+  width: 5%;  
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/*comparsa degli overlay*/
+#overlayCredits {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.95);
+    cursor: pointer;
+    color: white;
+    padding: 6%;
+    padding-top: 6%;
+}
+#overlayAiuto {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.95);
+    cursor: pointer;
+    color: white;
+    padding: 6%;
+    padding-top: 6%;
+}
+#overlayMap {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.95);
+    z-index: 2;
+    cursor: pointer;
+    color: white;
+}
+
+/*---FRECCETTE SEZIONI---*/
+/*---SEZIONI---*/
+.prevpage{
+  background-image: url(../../Media/Immagini/Layout/bg.png);
+  color: white;
+  margin-right: 2%;
+  opacity: 0.8;
+  cursor: pointer;
+  width: auto;
+  height: 45%;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 3px 3px 3px 3px;
+  user-select: none;
+  -webkit-user-select: none;
+  border: 0.5px solid greenyellow;
+}
+.nextpage{
+  background-image: url(../../Media/Immagini/Layout/bg.png);
+  color: white;
+  margin-left: 2%;
+  opacity: 0.8;
+  cursor: pointer;
+  width: auto;
+  height: 45%;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 3px 3px 3px 3px;
+  user-select: none;
+  -webkit-user-select: none;
+  border: 0.5px solid greenyellow;
+}
+
+.prevpage:hover,
+.nextpage:hover {
+  color: greenyellow;
+  opacity: 1;
+}
+
+
+/*---GESTIONE RISOLUZIONI INFERIORI---*/
+@media only screen and (max-width: 1300px) {
+
+/*---HEADER---*/
+.logo{
+	width: 6.3%;
+}
+.banner{
+	margin-bottom: 1.5%;
+	margin-left: 1%;
+	margin-right: 20%;
+	width: 45%;
+}
+.button{
+	margin-left: 0.1%;
+	width: 4.75%;
+	margin-bottom: 0.7%;
+	border-radius: 50%;
+}
+
+.closebutton{
+	margin-left: 0.1%;
+	width: 4.75%;
+	margin-bottom: 0.7%;
+	border-radius: 50%;
+}
+
+/*---FOOTER---*/
+.returnHome{
+  position: fixed;
+  margin-left: auto;
+  right: 46%;
+  width: 5em;
+  border-radius: 50%;
+}
+
+.backSection{
+width: 3.6em;
+}
+ul.menu{
+  font-size: 10px;
+  }}
+
+
+
+
+@media only screen and (max-width: 950px) {
+li.SezioneNome{
+	width: 100%;
+	text-align: center;
+}
+
+/*---HEADER---*/
+header{
+	border: 0.7px solid	black;
+}
+.logo{
+	width: 6.8%;
+}
+.banner{
+	margin-bottom: 1.7%;
+	margin-left: 1%;
+	margin-right: 16%;
+	width: 45%;
+}
+.button{
+	margin-left: 0.1%;
+	width: 5%;
+	margin-bottom: 0.6%;
+	border-radius: 50%;
+}
+
+.closebutton{
+	margin-left: 0.1%;
+	width: 5%;
+	margin-bottom: 0.6%;
+	border-radius: 50%;
+}
+
+/*---FOOTER---*/
+.returnHome{
+  position: fixed;
+  margin-left: auto;
+  right: 45%;
+  width: 4.5em;
+  border-radius: 50%;
+}
+
+.backSection{
+width: 3.4em;
+}
+}
+
+
+@media only screen and (max-width: 550px) {
+
+/*---HEADER---*/
+header{
+	border: 0.5px solid	black;
+}
+.logo{
+	padding-left: 0.5%;
+	padding-top: 0.5%;
+	width: 7%;
+}
+.banner{
+	margin-bottom: 1.5%;
+	margin-left: 1%;
+	margin-right: 9.85%;
+	width: 45%;
+}
+.button{
+	margin-left: 0.1%;
+	width: 6%;
+	margin-bottom: 0.2%;
+	border-radius: 50%;
+}
+
+
+.closebutton{
+	margin-left: 0.1%;
+	width: 6%;
+	margin-bottom: 0.2%;
+	border-radius: 50%;
+}
+
+
+/*---FOOTER---*/
+.returnHome{
+  position: fixed;
+  margin-left: auto;
+  right: 45%;
+  width: 4.3em;
+  border-radius: 50%;
+}
+
+
+.backSection{
+width: 3.5em;
+}
+footer{
+  font-size: 11px;
+}
+}
+
+
+@media only screen and (max-width: 375px) {
+/*---HEADER---*/
+header{
+	border: 0.5px solid	black;
+}
+.logo{
+	padding-left: 0.5%;
+	padding-top: 0.5%;
+	width: 8%;
+}
+.banner{
+	margin-bottom: 1.5%;
+	margin-left: 1%;
+	margin-right: 7.85%;
+	width: 45%;
+}
+.button{
+	margin-left: 0.1%;
+	width: 6%;
+	margin-bottom: 0.2%;
+	border-radius: 50%;
+}
+
+.closebutton{
+	margin-left: 0.1%;
+	width: 6%;
+	margin-bottom: 0.2%;
+	border-radius: 50%;
+}
+
+
+/*---FOOTER---*/
+.returnHome{
+  position: fixed;
+  margin-left: auto;
+  right: 40%;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.backSection{
+width: 3.2em;
+}
+}
+
+@media only screen and (max-width: 320px) {
+
+/*---HEADER---*/
+header{
+	border: 0.5px solid	black;
+}
+.logo{
+	padding-left: 0.5%;
+	padding-top: 0.5%;
+	width: 8%;
+	opacity: 0.8;
+}
+.banner{
+	margin-bottom: 1.5%;
+	margin-left: 1%;
+	margin-right: 6%;
+	width: 45%;
+}
+.button{
+	margin-left: 0.1%;
+	width: 6%;
+	margin-bottom: 0.2%;
+	border-radius: 50%;
+}
+
+.closebutton{
+	margin-left: 0.1%;
+	width: 6%;
+	margin-bottom: 0.2%;
+	border-radius: 50%;
+}
+
+/*---FOOTER---*/
+.returnHome{
+  position: fixed;
+  margin-left: auto;
+  right: 34%;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.backSection{
+width: 3em;
+}
+
+}
+
+
+
+
+
+

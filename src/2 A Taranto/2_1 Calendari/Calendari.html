@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Taranto - Calendari</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../Layout/layout.css">
+  <script type="text/javascript" src="../../Layout/layout.js"></script>
+  <link rel="stylesheet" type="text/css" href="../Sezione_Taranto.css">
+  
+  
+</head>
+<body>
+<!--HEADER-->
+  <header>
+    <img class="logo" src="../../../Media/Immagini/Layout/Logo.png" alt="Logo">
+    <img class="banner" src="../../../Media/Immagini/Layout/Laraccolta.png" alt="La raccolta differenziata">
+    <a onclick="onMap()">
+      <img src="../../../Media/Immagini/Layout/Bottone_Mappa.png" alt="Mappa" class="button" data-toggle="tooltip" data-placement="bottom" title="MAPPA">
+    </a>
+    <a onclick="goBack()">
+      <img src="../../../Media/Immagini/Layout/Bottone_Back.png" alt="Indietro" class="button" data-toggle="tooltip" data-placement="bottom" title="INDIETRO">
+    </a>
+    <a onclick="goForward()">
+      <img src="../../../Media/Immagini/Layout/Bottone_Fw.png" alt="Avanti" class="button" data-toggle="tooltip" data-placement="bottom" title="AVANTI">
+    </a>
+    <a onclick="onAiuto()">
+      <img src="../../../Media/Immagini/Layout/Bottone_I.png" alt="Aiuto" class="button" data-toggle="tooltip" data-placement="bottom" title="AIUTO">
+    </a>
+  <a onclick="chiusura()">
+      <img src="../../../Media/Immagini/Layout/Bottone_X.png" alt="Chiudi" class="closebutton" data-toggle="tooltip" data-placement="bottom" title="ESCI">
+    </a>
+</header>
+
+<!--BREADCRUMB-->
+<div class="container-fluid briciole">
+    <span style="margin-top: 0.2%;">Percorso:</span>
+    <ul class="breadcrumb">
+        <li><a href="../../../index.html">Home</a></li>
+        <li><a href="../Taranto_Home.html">A Taranto</a></li>
+        <li>Calendari</li>
+    </ul>
+  </div>
+
+<!--NAVBAR-->
+  <nav class="navbar navbar-sezione navbar-expand-sm navbar-expand-sm-sezione bg-dark bg-dark-sezione navbar-dark navbar-dark-sezione container-fluid">
+    <ul class="aTarantoHome navbar-nav navbar-nav-sezione">
+      <li class="aTaranto nav-item nav-item-sezione active">
+        <a class="nav-link nav-link-sezione" href="Calendari.html">CALENDARI</a>
+      </li>
+      <li class="aTaranto nav-item nav-item-sezione">
+        <a class="nav-link nav-link-sezione" href="../2_2 Isole Ecologiche/Isole_Ecologiche.html">ISOLE ECOLOGICHE</a>
+      </li>
+    </ul>
+  </nav>
+
+<!--SPAZIO SEZIONE-->
+<div class="spazio">
+    <div class = "panel-body descrizione" style="margin-top: 0%;">
+        <div class="titolo">
+          <a class="prevpage" href="../2_2 Isole Ecologiche/Isole_Ecologiche.html" data-toggle="tooltip" data-placement="left" title="PASSA A ISOLE ECOLOGICHE">&#10094;</a>
+          <span><h1 style="display: inline-block;"><b>CALENDARI "PORTA A PORTA"</b></h1></span>
+          <a class="nextpage" href="../2_2 Isole Ecologiche/Isole_Ecologiche.html" data-toggle="tooltip" data-placement="right" title="PASSA A ISOLE ECOLOGICHE">&#10095;</a>
+        </div>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"  data-interval="false">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+
+  <div class="carousel-inner" >
+
+    <div  class="carousel-item active" data-interval="false">
+      <h3>Lama-San Vito</h3>
+
+              <div class="area">
+
+          <div class="card">
+            <div class="genere" style="margin-bottom: 10%;">
+              <span style="color: #ffcc66"><b>ORGANICO</b></span>
+            </div>
+            <img class="img" src="../../../Media/Immagini/2_1 Calendari/BidoniOrganico.png" alt="Bidoni Organico">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Lunedì / Mercoledì / Venerdì</p></span>
+              </div>
+              <p>I rifiuti devono essere messi nella busta compostabile e nel secchiello marrone entro le 6.30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere" style="color: #ffff00">
+              <span><b>PLASTICA E METALLI LEGGERI</b></span>
+            </div>
+            <img class="img" src="../../../Media/Immagini/2_1 Calendari/BidoniPlastica.png" alt="Bidoni Plastica e Metalli">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Martedì</p></span>
+              </div>
+              <p>I rifiuti devono essere messi nel secchiello giallo entro le 6.30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere" style="color: blue">
+              <span><b>CARTA E<br>CARTONE</b></span>
+            </div>
+            <img class="img" src="../../../Media/Immagini/2_1 Calendari/BidoniCarta.png" alt="Bidoni Carta e Cartone">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Giovedì</p></span>
+              </div>
+              <p>I rifiuti devono essere messi nel secchiello blu entro le 6.30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere" style="color: silver">
+              <span><b>SECCO INDIFFERENZIATO</b></span>
+            </div>
+            <img class="img" src="../../../Media/Immagini/2_1 Calendari/BidoniSecco.png" alt="Bidoni Secco Indifferenziato">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Mercoledì / Sabato</p></span>
+              </div>
+              <p>I rifiuti devono essere messi nel secchiello grigio entro le 6.30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere" style="color: #00cc00">
+              <span><b>VETRO</b></span>
+            </div>
+            <img class="img2" src="../../../Media/Immagini/2_1 Calendari/BidoniVetro.png" alt="Bidoni Vetro">
+            <div class="informazioni">
+              
+              <div class="giorni" style="margin-top: 10%;">
+                <span><p>RACCOLTA STRADALE</p></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere">
+              <span>SFALCI DI POTATURA</span>
+            </div>
+            <img class="img2" style="margin-top: 2%;" src="../../../Media/Immagini/2_1 Calendari/BidoniPotatura.png" alt="Bidoni Sfalci di Potatura">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Lunedì / Martedì / Mercoledì / Sabato</p></span>
+              </div>
+              <p>Dalle 6 alle 12 in Via Aleardo</p>
+              <span>Venerdì</span>
+              <p>dalle 6 alle 12 in Via Cacace</p>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+
+    <div  class="carousel-item" data-interval="false">
+      <h3>Talsano-San Donato</h3>
+
+              <div class="area">
+
+          <div class="card">
+            <div class="genere" style="margin-bottom: 10%;">
+              <span style="color: #ffcc66"><b>ORGANICO</b></span>
+            </div>
+            <img class="img" src="../../../Media/Immagini/2_1 Calendari/BidoniOrganico.png" alt="Bidoni Organico">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Martedì / Giovedì / Sabato</p></span>
+              </div>
+              <p>I rifiuti devono essere messi nella busta compostabile e nel secchiello marrone entro le 6.30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere" style="color: #ffff00"><b>PLASTICA E METALLI LEGGERI</b></span></div>
+            <img class="img" src="../../../Media/Immagini/2_1 Calendari/BidoniPlastica.png" alt="Bidoni Plastica e Metalli">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Venerdì</p></span>
+              </div>
+              <p>I rifiuti devono essere messi nel secchiello giallo entro le 6.30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere" style="color: blue">
+              <span><b>CARTA E<br>CARTONE</b></span>
+            </div>
+            <img class="img" src="../../../Media/Immagini/2_1 Calendari/BidoniCarta.png" alt="Bidoni Carta e Cartone">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Mercoledì</p></span>
+              </div>
+              <p>I rifiuti devono essere messi nel secchiello blu entro le 6.30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere" style="color: silver">
+              <span><b>SECCO INDIFFERENZIATO</b></span>
+            </div>
+            <img class="img" src="../../../Media/Immagini/2_1 Calendari/BidoniSecco.png" alt="Bidoni Secco Indifferenziato">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Lunedì / Giovedì</p></span>
+              </div>
+              <p>I rifiuti devono essere messi nel secchiello grigio entro le 6.30</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere" style="color: #00cc00">
+              <span><b>VETRO</b></span>
+            </div>
+            <img class="img2" src="../../../Media/Immagini/2_1 Calendari/BidoniVetro.png" alt="Bidoni Vetro">
+            <div class="informazioni">
+              
+              <div class="giorni" style="margin-top: 10%;">
+                <span><p>RACCOLTA STRADALE</p></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="genere">
+              <span>SFALCI DI POTATURA</span>
+            </div>
+            <img class="img2" style="margin-top: 2%;" src="../../../Media/Immagini/2_1 Calendari/BidoniPotatura.png" alt="Bidoni Sfalci di Potatura">
+            <div class="informazioni">
+              
+              <div class="giorni">
+                <span><p>Lunedì / Martedì / Mercoledì / Sabato</p></span>
+              </div>
+              <p>Dalle 6 alle 12 in Via Aleardo</p>
+              <span>Venerdì</span>
+              <p>dalle 6 alle 12 in Via Cacace</p>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+
+
+
+
+   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"  data-toggle="tooltip" data-placement="right" title="SLIDE PRECEDENTE">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"  data-toggle="tooltip" data-placement="left" title="SLIDE SUCCESSIVA">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+        
+
+
+      </div>
+</div>
+             
+
+
+<!--TOUR GUIDATO-->
+<a href="../Taranto_Home.html">
+      <img class="backSection" src="../../../Media/Immagini/Layout/Sez_Precedente.png" alt="Bottone Back Section" title="MENÙ PRECEDENTE" data-toggle="tooltip" data-placement="right">
+    </a>
+
+    <a href="../../../index.html">
+      <img class="returnHome" src="../../../Media/Immagini/Layout/Bottone_Home.png" alt="Bottone Home" title="HOME" data-toggle="tooltip" data-placement="right">
+  </a>
+
+<!--FOOTER-->
+<footer>
+  <div class="footer-copyright text-center">© 2019 Copyright:
+    <a onclick="onCredits()"><u class="team">Team Monnezza</u></a>
+  </div>
+</footer>
+
+
+
+<!--MAPPA, AIUTO E CREDITS -->
+<div id="overlayMap" style="z-index: 1030; text-align: center;" class="mappa" onclick="offMap()">
+  <div class="titleOverlay" id="text" style="width: 85%; margin-bottom: 2%; margin-left: 7.3%; margin-top: 2%;">In questo momento stai visitando: CALENDARI</div>
+  <div class = "descriptionCredits" style="width: 85%; margin-left: 0; margin-right: 0; border-radius: 0px 0px 10px 10px;background-color: #111">
+    <img style="height: 550px;" src="../../../Media/Immagini/Mappe/Mappa_Calendario.png">
+  </div>
+  <span style="text-align: center; font-family: garamond;"><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span>
+</div>
+
+
+
+<div id="overlayAiuto" style="z-index: 1030; text-align: center; font-family: garamond;" class="overlay" onclick="offAiuto()">
+  <div class="titleOverlay"><span>AIUTO</span></div>
+  <div id="text" class="panel-body help" style="border-radius: 0px 0px 10px 10px;">
+    <div>
+      <span><p>BARRA DEGLI STRUMENTI:</p></span>
+
+      <div class="d-inline text-center w-100" style="display: flex;">
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_Mappa.png" class="rounded-img-fluid" alt="Bottone Mappa"><br>
+          <div class="titoloButton"><b>MAPPA</b></div>
+        Scopri in che punto dell'applicazione ti trovi.</div>
+
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_Back.png" class="rounded-img-fluid" alt="Bottone Indietro"><br>
+          <div class="titoloButton"><b>INDIETRO</b></div>
+        Torna alla pagina precedente.</div>
+
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_Fw.png" class="rounded-img-fluid" alt="Bottone Avanti"><br>
+          <div class="titoloButton"><b>AVANTI</b></div>
+        Torna alla pagina successiva.<br></div>
+
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_I.png" class="rounded-img-fluid" alt="Bottone Aiuto"><br>
+          <div class="titoloButton"><b>AIUTO</b></div>
+        Visualizza le informazioni relative alla navigazione.</div>
+
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_X.png" class="rounded-img-fluid" alt="Bottone Chiudi"><br>
+          <div class="titoloButton"><b>CHIUDI</b></div>
+        Chiudi l'applicazione.<br><br></div>
+      </div>
+    </div>
+  <br>
+<div class="container-fluid"><span>TOUR GUIDATO E INDICIZZATO:</span></div>
+  <div class="infoBottoneGriglia">
+    
+    <div class="second" style="display: inline-block;">
+        <div class="descriptionButtonSecond">
+          <img src="../../../Media/Immagini/Layout/Sez_Precedente.png" class="rounded-img-fluid" alt="Bottone Menù Precedente"><br>
+          <div class="titoloButton"><b>MENÙ PRECEDENTE</b></div>
+        Torna al menù della sezione attuale.</div>
+      
+
+       <div class="descriptionButtonSecond">
+          <img src="../../../Media/Immagini/Layout/Bottone_Home.png" class="rounded-img-fluid" alt="Bottone Home"><br>
+          <div class="titoloButton"><b>HOME</b></div>
+        Torna alla Home.<br><br>
+      </div>
+    </div>
+
+    <div class="second" style="display: inline-block;">
+        <div class="descriptionButtonSecond">
+          <img src="../../../Media/Immagini/Layout/back.png" class="rounded-img-fluid" alt="Bottone Menù Precedente"><br>
+          <div class="titoloButton"><b>PRECEDENTE</b></div>
+        Visualizza l'elemento precedente.</div>
+      
+
+       <div class="descriptionButtonSecond">
+          <img src="../../../Media/Immagini/Layout/fw.png" class="rounded-img-fluid" alt="Bottone Home"><br>
+          <div class="titoloButton"><b>SUCCESSIVO</b></div>
+        Visualizza l'elemento successivo.
+      </div>
+    </div>
+  </div>
+
+    </div>
+      <div style="margin-top: 2%;"><span><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span></div>
+  </div>
+
+
+<div id="overlayCredits" style="z-index: 1030; text-align: center; font-family: garamond;" class="overlay" onclick="offCredits()">
+<div class="titleOverlay"><span>CREDITI</span></div>
+ <div id="text" class="panel-body" style="border-radius: 0px 0px 10px 10px;">
+  <div style="text-align: center; color: greenyellow; font-family: garamond; font-size: 120%; margin-bottom: 2%;">
+  <div>Progettazione e produzione multimediale a cura di:</div>
+<b>TEAM MONNEZZA</b></div>
+  <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Francesco.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Francesco Caputo">
+    <div class="nameCredits"><b>CAPUTO Francesco</b></div>
+  </div>
+  <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Alessio.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Alessio De Bellis">
+    <div class="nameCredits"><b>DE BELLIS Alessio</b></div>
+  </div>
+  <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Matteo.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Matteo Luceri">
+    <div class="nameCredits"><b>LUCERI<br>Matteo</b></div>
+  </div>
+   <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Davide.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Davide Rano">
+    <div class="nameCredits"><b>RANO<br>Davide</b></div>
+  </div>
+   <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Emidio.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Emidio Schirano">
+    <div class="nameCredits"><b>SCHIRANO Emidio</b></div>
+  </div>
+  <p>Applicazione realizzata a scopo didattico per il corso di Progettazione e Produzione Multimediale tenuto dalla prof.ssa Rosa Lanzilotti</p><p>Università degli Studi di Bari Aldo Moro a.a. 2018/2019</p>
+</div><br>
+<div style="margin-top: 0%;"><span><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span></div>
+</div>
+
+  </body>
+</html>

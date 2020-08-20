@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../Layout/layout.css">
+  <script type="text/javascript" src="../../Layout/layout.js"></script>
+  <link rel="stylesheet" type="text/css" href="enciclopedia.css">
+  <title>Enciclopedia dei rifiuti</title>
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="../../../Media/Immagini/Layout/Logo.png" alt="Logo">
+    <img class="banner" src="../../../Media/Immagini/Layout/Laraccolta.png" alt="La raccolta differenziata">
+    <a onclick="onMap()">
+      <img src="../../../Media/Immagini/Layout/Bottone_Mappa.png" alt="Mappa" class="button" data-toggle="tooltip" data-placement="bottom" title="MAPPA">
+    </a>
+    <a onclick="goBack()">
+      <img src="../../../Media/Immagini/Layout/Bottone_Back.png" alt="Indietro" class="button" data-toggle="tooltip" data-placement="bottom" title="INDIETRO">
+    </a>
+    <a onclick="goForward()">
+      <img src="../../../Media/Immagini/Layout/Bottone_Fw.png" alt="Avanti" class="button" data-toggle="tooltip" data-placement="bottom" title="AVANTI">
+    </a>
+    <a onclick="onAiuto()">
+      <img src="../../../Media/Immagini/Layout/Bottone_I.png" alt="Aiuto" class="button" data-toggle="tooltip" data-placement="bottom" title="AIUTO">
+    </a>
+  <a onclick="chiusura()">
+      <img src="../../../Media/Immagini/Layout/Bottone_X.png" alt="Chiudi" class="closebutton" data-toggle="tooltip" data-placement="bottom" title="ESCI">
+    </a>
+</header>
+
+  <div class="container-fluid briciole">
+    <span style="margin-top: 0.2%;">Percorso:</span>
+    <ul class="breadcrumb">
+        <li><a href="../../../index.html">Home</a></li>
+        <li><a href="../Dove_home.html">Dove lo butto?</a></li>
+        <li>Enciclopedia</li>
+    </ul>
+  </div>
+
+
+<nav class="navbar navbar-sezione navbar-expand-sm navbar-expand-sm-sezione bg-dark bg-dark-sezione navbar-dark navbar-dark-sezione container-fluid">
+	  <ul class="menu navbar-nav navbar-nav-sezione">
+	    <li class="sezioneEciclopedia nav-item nav-item-sezione">
+	      <a class="nav-link nav-link-sezione" href="../3_1 FAQ/FAQ.html">DOMANDE FREQUENTI</a>
+	    </li>
+	    <li class="sezioneEciclopedia nav-item nav-item-sezione active">
+	      <a class="nav-link nav-link-sezione" href="../3_1 FAQ/FAQ.html">ENCICLOPEDIA DEL RIFIUTO</a>
+	    </li>
+	  </ul>
+</nav>
+
+
+<div class="enciclopedia">
+    
+
+ <div class="titolo">
+          <a class="prevpage" href="../3_1 FAQ/FAQ.html" data-toggle="tooltip" data-placement="left" title="PASSA A DOMANDE FREQUENTI">&#10094;</a>
+          <h1 style="display: inline-block; text-align: center;"> <b> ENCICLOPEDIA DEL RIFIUTO </b> </h1>
+          <a class="nextpage" href="../3_1 FAQ/FAQ.html" data-toggle="tooltip" data-placement="right" title="PASSA A DOMANDE FREQUENTI">&#10095;</a>
+ </div> 
+    <p style="font-family: Segoe UI; text-align: center; margin-top: 2%; margin-bottom: 0.5%">Qui vi riportiamo un elenco di tutti i rifiuti, in ordine alfabetico. Accanto la loro destinazione:</p> 
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+  <ol class="carousel-indicators carousel-indicators-letter">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">A</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1">B</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2">C</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3">D</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4">E</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5">F</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6">G</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7">I</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="8">L</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="9">M</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="10">N</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="11">O</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="12">P</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="13">Q</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="14">R</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="15">S</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="16">T</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="17">U</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="18">V</li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="19">Z</li>
+  </ol>
+
+  <div class="carousel-inner lista">
+
+    <div class="carousel-item active ">
+      <h5 style="text-align: center" > <b>A</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Accendigas</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Accendini</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Adesivi</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Aghi</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Album da disegno </span></td>
+            <td><span>Carta</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Alimenti</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td><span>Annaffiatoio</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Antitarme</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Apribottiglie</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Arbre Magique</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Asciugamani</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Assorbenti</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Avanzi di cibo</span></td>
+            <td> <span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Attrezzi da ferramenta</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+        </table>
+    </div>
+
+    <div class="carousel-item">
+      <h5 style="text-align: center" > <b>B</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Bambole</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Biglietto del cinema</span></td>
+            <td><span>Carta</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Banane</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Bandiere</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Barattolame</span></td>
+            <td><span>Alluminio</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Barattoli di vetro</span></td>
+            <td><span>Vetro</span></td>
+          </tr>
+          <tr> 
+            <td><span>Bastoncini cotonati</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Bastoncini per spiedini</span></td>
+            <td> <span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Batuffoli di ovatta o cotone</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Benda</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Biancheria</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Biberon</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Bicchieri di carta</span></td>
+            <td> <span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Bigiotteria</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+        </table>
+    </div>
+
+    <div class="carousel-item">
+      <h5 style="text-align: center" > <b>C</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Candele</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Cannuccia di plastica</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Carta argentata</span></td>
+            <td><span>Metallo</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Carta assorbente sporca</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Carta Bancomat</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Carta da regalo</span></td>
+            <td><span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td><span>Carta dei salumi</span></td>
+            <td><span>Plastica</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Carta fotografica</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Cartone della pizza</span></td>
+            <td> <span>Carta</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Cattura polvere</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>CD o Compact Disc</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Cenere (camino, stufe)</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Cerotti</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Chiodi</span></td>
+            <td> <span>Alluminio</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>D</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Depliant</span></td>
+            <td><span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td><span>Dischetti struccanti</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Detersivo dei panni </span></td>
+            <td><span>Plastica</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Denti</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Deodorante</span></td>
+            <td><span>Alluminio</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Dentifricio </span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Disco in vinile</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Dvd</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Damigiane di vetro</span></td>
+            <td> <span>Vetro</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Disinfettante</span></td>
+            <td> <span>Plastica</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Diario</span></td>
+            <td> <span>Carta</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Diapositive</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Dispenser</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Divisori di plastica per dolciumi</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>E</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Elastici</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Escrementi</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Etichette Adesive</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Erba di prato</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Evidenziatori</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Ecografie</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Etichette Carta</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Elettrodomestici</span></td>
+            <td> <span>Isola Ecologica</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Etichette Vestiti</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>F</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Fiammiferi</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td><span>Fazzoletto di carta</span></td>
+            <td><span>Organico</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Fili elettrici</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Flacone in plastica</span></td>
+            <td><span>Plastica</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Fondi di caffè</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Forbici</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Frutta</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Fialette di plastica</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Fialette di vetro</span></td>
+            <td> <span>Vetro</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Fiori Finti</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Filtri da tè o caffè</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Fogli di carta/cartone</span></td>
+            <td> <span>Carta</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Fotografie</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Floppy disk</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>G</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Ghiaccio istantaneo</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Giocattoli (non elettronici)</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Giornale</span></td>
+            <td><span>Carta</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Gomma da masticare</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Gommapiuma</span></td>
+            <td><span>Indifferenziato </span></td>
+          </tr> 
+          <tr> 
+            <td><span>Gratta e Vinci</span></td>
+            <td><span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td><span>Grucce in metallo</span></td>
+            <td><span>Alluminio</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Grucce in plastica</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Guanti in plastica</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Guarnizioni</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Gusci di cozze</span></td>
+            <td> <span>Indifferenziato </span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Gusci di frutta secca </span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Gusci d’uovo</span></td>
+            <td> <span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Gusci di frutti di mare</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center"> <b>I</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Imbuto in plastica</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Incarto del cono gelato</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Indumenti vecchi</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Imballaggi di carta </span></td>
+            <td><span>Carta</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Imballaggi di metallo</span></td>
+            <td><span>Plastica</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Imballaggi di plastica</span></td>
+            <td><span>Plastica</span></td>
+          </tr>
+          <tr> 
+            <td><span>Imballaggi di polistirolo</span></td>
+            <td><span>Plastica</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Imballaggi di vetro</span></td>
+            <td> <span>Vetro</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Incarti di brioches</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Incensi</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Insetti</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Involucro cassette audio/video/cd</span></td>
+            <td> <span>Plastica</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>L</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Lacche (vuote)</span></td>
+            <td><span>Alluminio</span></td>
+          </tr>
+          <tr> 
+            <td><span>Lampadina a incandescenza</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Lana di roccia</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Lenti di ingrandimento</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Lenti di occhiali</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Lenzuola</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Lettiera per animali</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Libri</span></td>
+            <td> <span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Lische di pesce</span></td>
+            <td> <span>Organico</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Lucidascarpe</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Lumini con condela</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Lamette usa e getta</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Latta</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Legno (di piccole dimensioni)</span></td>
+            <td> <span>Organico</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>M</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Matite di legno</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td><span>Metro da sarta</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Metro pieghevole di legno</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Mollette da bucato</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Mozziconi di sigaretta</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Musicassette</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Mascara</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Maschera da mare o sub</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Maschera di plastica di carnevale</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Mascherine </span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Matita per gli occhi</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Matita per le labbra</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Matite colorate</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Mocio pavimenti</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>N</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Nastri decorativi</span></td>
+            <td><span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td><span>Nastro adesivo</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Nastro adesivo di carta</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Nastro isolante</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Noccioli della frutta fresca</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Noccioli di oliva</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td><span>Nastro da pacchi</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Nastro per regali</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Nylon</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Negativi fotografici</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>O</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Ovatta</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Occhiali</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Ombrello</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Ombrellone da mare</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Ossi (avanzi di cibo)</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Opuscoli</span></td>
+            <td><span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td><span>Ortaggi</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Oggetti in legno</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Ombretto</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Osso albicocca e pesca</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Osso delle ciliegie</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Ossa piccole</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Ossa grandi</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Oggetti di cristallo</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>P</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Packaging imballaggio pasta</span></td>
+            <td><span>Plastica</span></td>
+          </tr>
+          <tr> 
+            <td><span>Pacchetto delle sigarette</span></td>
+            <td><span>carta</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Padelle in acciaio</span></td>
+            <td><span>Alluminio</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Palettine da caffè</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Palline albero di Natale</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Palloni da gioco</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Pennelli</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Posate di plastica</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Pennelli da trucco</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Pannocarta</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Post-it</span></td>
+            <td> <span>Carta</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Pannolini compostabili</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Pannolini lavabili</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Pasta (cruda o cotta)</span></td>
+            <td> <span>Organico</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>Q</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Quaderni</span></td>
+            <td><span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td><span>Quotidiani</span></td>
+            <td><span>Carta</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Quadro</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>/</span></td>
+            <td><span>/</span></td>
+          </tr> 
+          <tr> 
+            <td><span>/</span></td>
+            <td><span>/</span></td>
+          </tr> 
+          <tr> 
+            <td><span>/</span></td>
+            <td><span>/</span></td>
+          </tr>
+          <tr> 
+            <td><span>/</span></td>
+            <td><span>/</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>R</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Radiografie</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Ramaglie piccole quantità</span></td>
+            <td><span>Organico</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Rami piccole quantità</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Retina dei vasi d’acquisto</span></td>
+            <td><span>Plastica </span></td>
+          </tr> 
+          <tr> 
+            <td><span>Retina (rete) per frutta e verdura</span></td>
+            <td><span>Plastica </span></td>
+          </tr> 
+          <tr> 
+            <td><span>Righello in plastica</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Risonanza magnetica</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Riviste</span></td>
+            <td> <span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Rossetto</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Rotolo della carta igienica</span></td>
+            <td> <span>Carta</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Rossetto imballaggio di plastica</span></td>
+            <td> <span>Plastica </span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Rafia naturale</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Rafia sintetica</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Reggette per legatura pacchi</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>S</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Stecco gelato</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td><span>Stracci sporchi</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Sturalavandini</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Stuzzicadenti</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Sughero naturale</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Sacchetti di aspirapolvere</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Sacchetti di carta</span></td>
+            <td><span>Carta</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Salviette umidificate</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Sapone</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Scarti di cibo</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Scatole di farmaci</span></td>
+            <td> <span>Carta</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Scontrini</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Scotch</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Segatura</span></td>
+            <td> <span>Organico</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>T</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>TAC</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Tagliere</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Tampax</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Tappi della birra</span></td>
+            <td><span>Alluminio</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Tappi di plastica</span></td>
+            <td><span>Plastica</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Tappo di sughero</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td><span>Temperino in plastica</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Terra</span></td>
+            <td> <span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Terracotta</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Terriccio</span></td>
+            <td> <span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Tetra Pak</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Tinta per capelli</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Tovagliette di carta </span></td>
+            <td> <span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Tovaglioli spochi</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>U</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Uova</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td><span>Uncinetti</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Unghie</span></td>
+            <td><span>Organico</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Unguenti</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Utensili</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Uvetta</span></td>
+            <td><span>Organico</span></td>
+          </tr>
+          <tr> 
+            <td><span>/</span></td>
+            <td><span>/</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>V</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Vaschetta in alluminio</span></td>
+            <td><span>Alluminio </span></td>
+          </tr>
+          <tr> 
+            <td><span>Vaschetta in polistirolo</span></td>
+            <td><span>Plastica</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Vaschetta degli affettati</span></td>
+            <td><span>Plastica</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Vaschette della carne</span></td>
+            <td><span>Plastica</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Vasetti di vetro</span></td>
+            <td><span>Vetro</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Vasi di terracotta</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Vasetti dello yogurt</span></td>
+            <td><span>Plastica</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Vassoio in cartoncino per dolciumi</span></td>
+            <td> <span>Carta</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Vassoio in plastica</span></td>
+            <td> <span>Plastica</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>Vetri rotti</span></td>
+            <td> <span>Vetro</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Vetroceramica </span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Videocassetta</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>Vinavil (contenitore)</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Viti</span></td>
+            <td> <span>Alluminio</span></td>
+          </tr>
+        </table>
+    </div>
+
+        <div class="carousel-item">
+      <h5 style="text-align: center" > <b>Z</b> </h5>    
+        <table border="1px" class="tab-sx">
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr>
+          <tr> 
+            <td><span>Zaini</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td><span>Zampone (confezione)</span></td>
+            <td><span>Carta</span></td>
+          </tr>      
+          <tr> 
+            <td><span>Zoccoli (di legno, di gomma, ecc…)</span></td>
+            <td><span>Indifferenziato </span></td>
+          </tr> 
+          <tr> 
+            <td><span>Zanzariere (tela)</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Zerbini</span></td>
+            <td><span>Indifferenziato</span></td>
+          </tr> 
+          <tr> 
+            <td><span>Zuppiere di metallo</span></td>
+            <td><span>Alluminio</span></td>
+          </tr>
+          <tr> 
+            <td><span>Zuppiere di vetro</span></td>
+            <td><span>Vetro</span></td>
+          </tr>
+        </table>
+
+        <table border="1px" class="tab-dx"> 
+        <tr> 
+            <td><span><b>RIFIUTO</b></span></td>
+            <td><span><b>DOVE LO BUTTO?</b></span></td>
+        </tr> 
+          <tr> 
+            <td> <span>Zuppiere di ceramica</span></td>
+            <td> <span>Indifferenziato</span></td>
+          </tr>
+          <tr> 
+            <td> <span>Zanzariera (telaio)</span></td>
+            <td> <span>Alluminio</span></td>
+          </tr>      
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr> 
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+          <tr> 
+            <td> <span>/</span></td>
+            <td> <span>/</span></td>
+          </tr>
+        </table>
+    </div>
+
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" data-toggle="tooltip" data-placement="right" title="SLIDE PRECEDENTE">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" data-toggle="tooltip" data-placement="left" title="SLIDE SUCCESSIVA">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+</div>
+
+
+<!--TOUR GUIDATO-->
+<a href="../Dove_Home.html">
+      <img class="backSection" src="../../../Media/Immagini/Layout/Sez_Precedente.png" alt="Bottone Back Section" title="MENÙ PRECEDENTE" data-toggle="tooltip" data-placement="right">
+    </a>
+
+    <a href="../../../index.html">
+      <img class="returnHome" src="../../../Media/Immagini/Layout/Bottone_Home.png" alt="Bottone Home" title="HOME" data-toggle="tooltip" data-placement="right">
+  </a>
+
+<!--FOOTER-->
+<footer>
+  <div class="footer-copyright text-center">© 2019 Copyright:
+    <a onclick="onCredits()"><u class="team">Team Monnezza</u></a>
+  </div>
+</footer>
+
+
+<!--MAPPA, AIUTO E CREDITS -->
+<div id="overlayMap" style="z-index: 1030; text-align: center;" class="mappa" onclick="offMap()">
+  <div class="titleOverlay" id="text" style="width: 85%; margin-bottom: 2%; margin-left: 7.3%; margin-top: 2%;">In questo momento stai visitando: ENCICLOPEDIA</div>
+  <div class = "descriptionCredits" style="width: 85%; margin-left: 0; margin-right: 0; border-radius: 0px 0px 10px 10px;background-color: #111">
+    <img style="height: 550px;" src="../../../Media/Immagini/Mappe/Mappa_Enciclopedia.png">
+  </div>
+  <span style="text-align: center; font-family: garamond;"><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span>
+</div>
+
+
+<div id="overlayAiuto" style="z-index: 1030; text-align: center; font-family: garamond;" class="overlay" onclick="offAiuto()">
+  <div class="titleOverlay"><span>AIUTO</span></div>
+  <div id="text" class="panel-body help" style="border-radius: 0px 0px 10px 10px;">
+    <div>
+      <span><p>BARRA DEGLI STRUMENTI:</p></span>
+
+      <div class="d-inline text-center w-100" style="display: flex;">
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_Mappa.png" class="rounded-img-fluid" alt="Bottone Mappa"><br>
+          <div class="titoloButton"><b>MAPPA</b></div>
+        Scopri in che punto dell'applicazione ti trovi.</div>
+
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_Back.png" class="rounded-img-fluid" alt="Bottone Indietro"><br>
+          <div class="titoloButton"><b>INDIETRO</b></div>
+        Torna alla pagina precedente.</div>
+
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_Fw.png" class="rounded-img-fluid" alt="Bottone Avanti"><br>
+          <div class="titoloButton"><b>AVANTI</b></div>
+        Torna alla pagina successiva.<br></div>
+
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_I.png" class="rounded-img-fluid" alt="Bottone Aiuto"><br>
+          <div class="titoloButton"><b>AIUTO</b></div>
+        Visualizza le informazioni relative alla navigazione.</div>
+
+        <div class="descriptionButton">
+          <img src="../../../Media/Immagini/Layout/Bottone_X.png" class="rounded-img-fluid" alt="Bottone Chiudi"><br>
+          <div class="titoloButton"><b>CHIUDI</b></div>
+        Chiudi l'applicazione.<br><br></div>
+      </div>
+    </div>
+  <br>
+<div class="container-fluid"><span>TOUR GUIDATO E INDICIZZATO:</span></div>
+  <div class="infoBottoneGriglia">
+    
+    <div class="second" style="display: inline-block;">
+        <div class="descriptionButtonSecond">
+          <img src="../../../Media/Immagini/Layout/Sez_Precedente.png" class="rounded-img-fluid" alt="Bottone Menù Precedente"><br>
+          <div class="titoloButton"><b>MENÙ PRECEDENTE</b></div>
+        Torna al menù della sezione attuale.</div>
+      
+
+       <div class="descriptionButtonSecond">
+          <img src="../../../Media/Immagini/Layout/Bottone_Home.png" class="rounded-img-fluid" alt="Bottone Home"><br>
+          <div class="titoloButton"><b>HOME</b></div>
+        Torna alla Home.<br><br>
+      </div>
+    </div>
+
+    <div class="second" style="display: inline-block;">
+        <div class="descriptionButtonSecond">
+          <img src="../../../Media/Immagini/Layout/back.png" class="rounded-img-fluid" alt="Bottone Menù Precedente"><br>
+          <div class="titoloButton"><b>PRECEDENTE</b></div>
+        Visualizza l'elemento precedente.</div>
+      
+
+       <div class="descriptionButtonSecond">
+          <img src="../../../Media/Immagini/Layout/fw.png" class="rounded-img-fluid" alt="Bottone Home"><br>
+          <div class="titoloButton"><b>SUCCESSIVO</b></div>
+        Visualizza l'elemento successivo.
+      </div>
+    </div>
+  </div>
+
+    </div>
+      <div style="margin-top: 2%;"><span><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span></div>
+  </div>
+
+
+<div id="overlayCredits" style="z-index: 1030; text-align: center; font-family: garamond;" class="overlay" onclick="offCredits()">
+<div class="titleOverlay"><span>CREDITI</span></div>
+ <div id="text" class="panel-body" style="border-radius: 0px 0px 10px 10px;">
+  <div style="text-align: center; color: greenyellow; font-family: garamond; font-size: 120%; margin-bottom: 2%;">
+  <div>Progettazione e produzione multimediale a cura di:</div>
+<b>TEAM MONNEZZA</b></div>
+  <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Francesco.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Francesco Caputo">
+    <div class="nameCredits"><b>CAPUTO Francesco</b></div>
+  </div>
+  <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Alessio.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Alessio De Bellis">
+    <div class="nameCredits"><b>DE BELLIS Alessio</b></div>
+  </div>
+  <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Matteo.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Matteo Luceri">
+    <div class="nameCredits"><b>LUCERI<br>Matteo</b></div>
+  </div>
+   <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Davide.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Davide Rano">
+    <div class="nameCredits"><b>RANO<br>Davide</b></div>
+  </div>
+   <div class="descriptionCredits">
+    <img src="../../../Media/Immagini/Layout/Credits/Emidio.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Emidio Schirano">
+    <div class="nameCredits"><b>SCHIRANO Emidio</b></div>
+  </div>
+  <p>Applicazione realizzata a scopo didattico per il corso di Progettazione e Produzione Multimediale tenuto dalla prof.ssa Rosa Lanzilotti</p><p>Università degli Studi di Bari Aldo Moro a.a. 2018/2019</p>
+</div><br>
+<div style="margin-top: 0%;"><span><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span></div>
+</div>
+
+</body>
+</html>

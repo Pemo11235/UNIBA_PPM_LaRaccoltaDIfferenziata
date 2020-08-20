@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>A Taranto - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../Layout/layout.css">
+  <link rel="stylesheet" type="text/css" href="../Layout/Pre_Home.css">
+  <link rel="stylesheet" type="text/css" href="Sezione_Taranto.css">
+  <script type="text/javascript" src="../Layout/layout.js"></script>
+  
+  
+</head>
+<body>
+
+<header>
+    <img class="logo" src="../../Media/Immagini/Layout/Logo.png" alt="Logo">
+    <img class="banner" src="../../Media/Immagini/Layout/Laraccolta.png" alt="La raccolta differenziata">
+    <a onclick="onMap()">
+      <img src="../../Media/Immagini/Layout/Bottone_Mappa.png" alt="Mappa" class="button" data-toggle="tooltip" data-placement="bottom" title="MAPPA">
+    </a>
+    <a onclick="goBack()">
+      <img src="../../Media/Immagini/Layout/Bottone_Back.png" alt="Indietro" class="button" data-toggle="tooltip" data-placement="bottom" title="INDIETRO">
+    </a>
+    <a onclick="goForward()">
+      <img src="../../Media/Immagini/Layout/Bottone_Fw.png" alt="Avanti" class="button" data-toggle="tooltip" data-placement="bottom" title="AVANTI">
+    </a>
+    <a onclick="onAiuto()">
+      <img src="../../Media/Immagini/Layout/Bottone_I.png" alt="Aiuto" class="button" data-toggle="tooltip" data-placement="bottom" title="AIUTO">
+    </a>
+  <a onclick="chiusura()">
+      <img src="../../Media/Immagini/Layout/Bottone_X.png" alt="Chiudi" class="closebutton" data-toggle="tooltip" data-placement="bottom" title="ESCI">
+    </a>
+</header>
+
+  <div class="container-fluid briciole">
+    <span style="margin-top: 0.2%;">Percorso:</span>
+    <ul class="breadcrumb">
+        <li><a href="../../index.html">Home</a></li>
+        <li>A Taranto</li>
+    </ul>
+  </div>
+
+   <nav class="navbar navbar-sezione navbar-expand-sm navbar-expand-sm-sezione bg-dark bg-dark-sezione navbar-dark navbar-dark-sezione container-fluid">
+    <ul class="menu navbar-nav navbar-nav-sezione" style="display: flex;">
+      
+      <li class="aTaranto nav-item nav-item-sezione">
+        <a class="nav-link nav-link-sezione" href="../1 Da Sapere/Da_Sapere_Home.html">DA SAPERE</a>
+      </li>
+      <li class="aTaranto nav-item nav-item-sezione active">
+        <a class="nav-link nav-link-sezione" href="Taranto_Home.html">A TARANTO</a>
+      </li>
+      <li class="aTaranto nav-item nav-item-sezione">
+        <a class="nav-link nav-link-sezione" href="../3 Dove Lo Butto/Dove_Home.html">DOVE LO BUTTO ?</a>
+      </li>
+      <li class="aTaranto nav-item nav-item-sezione">
+        <a class="nav-link nav-link-sezione" href="../4 Intrattenimento/Intrattenimento_Home.html">SVAGO</a>
+      </li>
+    </ul>
+  </nav>
+
+
+<!--DESCRIZIONE TESTUALE-->
+  <div class="panel panel-default container-fluid">
+      <div class = "panel-body descrizioneDaSapere">
+        <div class="titolo">
+          <a class="prevpage" href="../1 Da Sapere/Da_Sapere_Home.html" data-toggle="tooltip" data-placement="left" title="PASSA A DA SAPERE">&#10094;</a>
+          <span><h1 style="display: inline-block;"><b>A TARANTO</b></h1></span>
+          <a class="nextpage" href="../3 Dove Lo Butto/Dove_Home.html" data-toggle="tooltip" data-placement="right" title="PASSA A DOVE LO BUTTO?">&#10095;</a>
+        </div>
+        <span><p>A Taranto il gestore del servizio di raccolta dei rifiuti è <b>“Amiu S.p.A.”</b>: attualmente, nei vari settori coinvolti nel servizio di raccolta differenziata, sono impiegate almeno 130 unità lavorative.<p>
+        <p>Nel capoluogo ionico vengono utilizzate le modalità di raccolta differenziata maggiormente applicate sul territorio nazionale.</p>
+        <p>Il sistema Porta a Porta è attuato nei quartieri Lama-San Vito e Talsano-San Donato.</p>
+        </span>
+      </div>
+    </div>
+
+
+<!--SPAZIO DEDICATO ALLE ICONE-->
+    <div class="container-fluid" style="display: inline-flex;">
+
+	    <div class="d-inline text-center w-100 griglia"> 
+	    	<a href="2_1 Calendari/Calendari.html">
+	    		<img src="../../Media/Immagini/Cards/Calendari.png" class="rounded-img-fluid iconeTaranto" alt="Calendari">
+        </a>
+        <div class=titoloIcona><b>CALENDARI</b></div>
+	    </div>
+
+	   <div class="d-inline text-center w-100 griglia"> 
+        <a href="2_2 Isole Ecologiche/Isole_Ecologiche.html">
+          <img src="../../Media/Immagini/Cards/Isole.png" class="rounded-img-fluid iconeTaranto" alt="Isole Ecologiche">
+        </a>
+        <div class=titoloIcona><b>ISOLE ECOLOGICHE</b></div>
+      </div>
+      </div>
+    </div>
+
+
+<!--TOUR GUIDATO-->
+      <img class="backSectionUnclickable" src="../../Media/Immagini/Layout/Sez_Precedente.png" alt="Bottone Back Section" title="NON PUOI TORNARE INDIETRO DA QUÌ" data-toggle="tooltip" data-placement="right">
+
+    <a href="../../index.html">
+      <img class="returnHome" src="../../Media/Immagini/Layout/Bottone_Home.png" alt="Bottone Home" title="HOME" data-toggle="tooltip" data-placement="right">
+  </a>
+
+
+<!--FOOTER-->
+<footer>
+  <div class="footer-copyright text-center">© 2019 Copyright:
+    <a onclick="onCredits()"><u class="team">Team Monnezza</u></a>
+  </div>
+</footer>
+
+
+
+<!--MAPPA, AIUTO E CREDITS -->
+<!--MAPPA, AIUTO E CREDITS -->
+<div id="overlayMap" style="z-index: 1030; text-align: center;" class="mappa" onclick="offMap()">
+  <div class="titleOverlay" id="text" style="width: 85%; margin-bottom: 2%; margin-left: 7.3%; margin-top: 2%;">In questo momento stai visitando: A TARANTO</div>
+  <div class = "descriptionCredits" style="width: 85%; margin-left: 0; margin-right: 0; border-radius: 0px 0px 10px 10px;background-color: #111">
+    <img style="height: 550px;" src="../../Media/Immagini/Mappe/Mappa_ATaranto.png">
+  </div>
+  <span style="text-align: center; font-family: garamond;"><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span>
+</div>
+
+
+
+
+<div id="overlayAiuto" style="z-index: 1030; text-align: center; font-family: garamond;" class="overlay" onclick="offAiuto()">
+  <div class="titleOverlay"><span>AIUTO</span></div>
+  <div id="text" class="panel-body help" style="border-radius: 0px 0px 10px 10px;">
+    <div>
+      <span><p>BARRA DEGLI STRUMENTI:</p></span>
+
+      <div class="d-inline text-center w-100" style="display: flex;">
+        <div class="descriptionButton">
+          <img src="../../Media/Immagini/Layout/Bottone_Mappa.png" class="rounded-img-fluid" alt="Bottone Mappa"><br>
+          <div class="titoloButton"><b>MAPPA</b></div>
+        Scopri in che punto dell'applicazione ti trovi.</div>
+
+        <div class="descriptionButton">
+          <img src="../../Media/Immagini/Layout/Bottone_Back.png" class="rounded-img-fluid" alt="Bottone Indietro"><br>
+          <div class="titoloButton"><b>INDIETRO</b></div>
+        Torna alla pagina precedente.</div>
+
+        <div class="descriptionButton">
+          <img src="../../Media/Immagini/Layout/Bottone_Fw.png" class="rounded-img-fluid" alt="Bottone Avanti"><br>
+          <div class="titoloButton"><b>AVANTI</b></div>
+        Torna alla pagina successiva.<br></div>
+
+        <div class="descriptionButton">
+          <img src="../../Media/Immagini/Layout/Bottone_I.png" class="rounded-img-fluid" alt="Bottone Aiuto"><br>
+          <div class="titoloButton"><b>AIUTO</b></div>
+        Visualizza le informazioni relative alla navigazione.</div>
+
+        <div class="descriptionButton">
+          <img src="../../Media/Immagini/Layout/Bottone_X.png" class="rounded-img-fluid" alt="Bottone Chiudi"><br>
+          <div class="titoloButton"><b>CHIUDI</b></div>
+        Chiudi l'applicazione.<br><br></div>
+      </div>
+    </div>
+  <br>
+<div class="container-fluid"><span>TOUR GUIDATO E INDICIZZATO:</span></div>
+  <div class="infoBottoneGriglia">
+    
+    <div class="second" style="display: inline-block;">
+        <div class="descriptionButtonSecond">
+          <img src="../../Media/Immagini/Layout/Sez_Precedente.png" class="rounded-img-fluid" alt="Bottone Menù Precedente"><br>
+          <div class="titoloButton"><b>MENÙ PRECEDENTE</b></div>
+        Torna al menù della sezione attuale.</div>
+      
+
+       <div class="descriptionButtonSecond">
+          <img src="../../Media/Immagini/Layout/Bottone_Home.png" class="rounded-img-fluid" alt="Bottone Home"><br>
+          <div class="titoloButton"><b>HOME</b></div>
+        Torna alla Home.<br><br>
+      </div>
+    </div>
+
+    <div class="second" style="display: inline-block;">
+        <div class="descriptionButtonSecond">
+          <img src="../../Media/Immagini/Layout/back.png" class="rounded-img-fluid" alt="Bottone Menù Precedente"><br>
+          <div class="titoloButton"><b>PRECEDENTE</b></div>
+        Visualizza l'elemento precedente.</div>
+      
+
+       <div class="descriptionButtonSecond">
+          <img src="../../Media/Immagini/Layout/fw.png" class="rounded-img-fluid" alt="Bottone Home"><br>
+          <div class="titoloButton"><b>SUCCESSIVO</b></div>
+        Visualizza l'elemento successivo.
+      </div>
+    </div>
+  </div>
+
+    </div>
+      <div style="margin-top: 2%;"><span><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span></div>
+  </div>
+
+
+<div id="overlayCredits" style="z-index: 1030; text-align: center; font-family: garamond;" class="overlay" onclick="offCredits()">
+<div class="titleOverlay"><span>CREDITI</span></div>
+ <div id="text" class="panel-body" style="border-radius: 0px 0px 10px 10px;">
+  <div style="text-align: center; color: greenyellow; font-family: garamond; font-size: 120%; margin-bottom: 2%;">
+  <div>Progettazione e produzione multimediale a cura di:</div>
+<b>TEAM MONNEZZA</b></div>
+  <div class="descriptionCredits">
+    <img src="../../Media/Immagini/Layout/Credits/Francesco.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Francesco Caputo">
+    <div class="nameCredits"><b>CAPUTO Francesco</b></div>
+  </div>
+  <div class="descriptionCredits">
+    <img src="../../Media/Immagini/Layout/Credits/Alessio.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Alessio De Bellis">
+    <div class="nameCredits"><b>DE BELLIS Alessio</b></div>
+  </div>
+  <div class="descriptionCredits">
+    <img src="../../Media/Immagini/Layout/Credits/Matteo.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Matteo Luceri">
+    <div class="nameCredits"><b>LUCERI<br>Matteo</b></div>
+  </div>
+   <div class="descriptionCredits">
+    <img src="../../Media/Immagini/Layout/Credits/Davide.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Davide Rano">
+    <div class="nameCredits"><b>RANO<br>Davide</b></div>
+  </div>
+   <div class="descriptionCredits">
+    <img src="../../Media/Immagini/Layout/Credits/Emidio.png" class="rounded-img-fluid" style="border-radius: 5% 5% 0 0;" width="100%" alt="Emidio Schirano">
+    <div class="nameCredits"><b>SCHIRANO Emidio</b></div>
+  </div>
+  <p>Applicazione realizzata a scopo didattico per il corso di Progettazione e Produzione Multimediale tenuto dalla prof.ssa Rosa Lanzilotti</p><p>Università degli Studi di Bari Aldo Moro a.a. 2018/2019</p>
+</div><br>
+<div style="margin-top: 0%;"><span><p>CLICCA IN UN PUNTO QUALSIASI PER CHIUDERE QUESTA FINESTRA</p></span></div>
+</div>
+
+  </body>
+</html>
